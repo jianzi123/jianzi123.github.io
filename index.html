@@ -1,5 +1,239 @@
----
-layout: home
-title: My website
-subtitle: This is where I will tell my friends way too much about me
----
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王帅俭 - 资深研发工程师</title>
+    <meta name="description" content="王帅俭的个人技术主页。拥有12年研发经验，深耕云计算、大模型训练、高性能调度。">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="bg-gradient"></div>
+    <div class="glow-blob blob-1"></div>
+    <div class="glow-blob blob-2"></div>
+
+    <nav class="navbar glass-effect">
+        <div class="nav-content">
+            <div class="logo">WSJ.</div>
+            <ul class="nav-links">
+                <li><a href="#about">关于</a></li>
+                <li><a href="#advantages">核心优势</a></li>
+                <li><a href="#experience">工作经历</a></li>
+                <li><a href="#projects">项目经验</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="about" class="hero fade-in">
+            <div class="hero-content glass-card">
+                <h1 class="title">王帅俭</h1>
+                <h2 class="subtitle">资深研发工程师 <span>|</span> 云计算 & 大模型训练架构专家</h2>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i data-lucide="phone"></i>
+                        <span>18614236639</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="mail"></i>
+                        <span>a978685835@163.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i data-lucide="briefcase"></i>
+                        <span>12年经验</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Advantages -->
+        <section id="advantages" class="section">
+            <h2 class="section-title fade-in">核心优势</h2>
+            <div class="grid-3">
+                <div class="card glass-card fade-in slide-up" style="--delay: 0.1s">
+                    <div class="card-icon"><i data-lucide="layers"></i></div>
+                    <h3>技术栈全面</h3>
+                    <p>9年Golang / 3年C++ / 3年Linux开发经验，深耕云计算（Kubernetes、GPU虚拟化）、大模型训练（Megatron、MoE）、高性能调度（Binpack、拓扑亲和）。
+                    </p>
+                </div>
+                <div class="card glass-card fade-in slide-up" style="--delay: 0.2s">
+                    <div class="card-icon"><i data-lucide="cpu"></i></div>
+                    <h3>工程能力强</h3>
+                    <p>主导多个千万级用户AI平台架构设计（百度AI平台、Shopee MLP调度），解决GPU利用率、容错、混布等核心问题。</p>
+                </div>
+                <div class="card glass-card fade-in slide-up" style="--delay: 0.3s">
+                    <div class="card-icon"><i data-lucide="zap"></i></div>
+                    <h3>算法落地经验</h3>
+                    <p>实现DP Overlap、Memory-Cost Model等优化策略，提升大模型训练MFU（Model FLOPs Utilization）。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Experience -->
+        <section id="experience" class="section">
+            <h2 class="section-title fade-in">工作经历</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in slide-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>马上消费金融股份有限公司</h3>
+                            <span class="timeline-date">2025.06 至今</span>
+                        </div>
+                        <p class="role">研发工程师 | 大模型预训练、算法创新与性能优化</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in slide-right" style="--delay: 0.1s">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>虾皮 (Shopee)</h3>
+                            <span class="timeline-date">2023.12 - 2025.05</span>
+                        </div>
+                        <p class="role">研发工程师 | AI基础架构、调度与训练优化</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in slide-right" style="--delay: 0.2s">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>百度</h3>
+                            <span class="timeline-date">2021.04 - 2023.12</span>
+                        </div>
+                        <p class="role">Golang 研发工程师 | AI平台建设 (孔明)、GPU虚拟化</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in slide-right" style="--delay: 0.3s">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>猿辅导</h3>
+                            <span class="timeline-date">2020.10 - 2021.03</span>
+                        </div>
+                        <p class="role">Golang 研发工程师 | 基础架构 K8s 平台建设</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in slide-right" style="--delay: 0.4s">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>北京京东 (T6)</h3>
+                            <span class="timeline-date">2018.01 - 2020.10</span>
+                        </div>
+                        <p class="role">Golang 研发工程师 | Baas 平台、商城 Paas 平台</p>
+                    </div>
+                </div>
+                <div class="timeline-item fade-in slide-right" style="--delay: 0.5s">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div class="timeline-header">
+                            <h3>北京东方国信科技</h3>
+                            <span class="timeline-date">2016.07 - 2017.12</span>
+                        </div>
+                        <p class="role">Golang 研发工程师 | Paas 平台建设</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Experience -->
+        <section id="projects" class="section">
+            <h2 class="section-title fade-in">精选项目</h2>
+            <div class="projects-grid">
+
+                <div class="project-card glass-card fade-in slide-up">
+                    <div class="project-header">
+                        <h3>大模型预训练 & B200性能评测</h3>
+                        <span class="company-tag">马上消费金融</span>
+                    </div>
+                    <ul class="project-details">
+                        <li><strong>核心突破：</strong>主导 Multi-LM-Head 预训练方案从0到1落地，包括模型结构改造、多头loss设计及融合。</li>
+                        <li><strong>性能基准：</strong>完成 B200 GPU 在 Dense 与 MoE 模型下的训练性能评测，产出核心指标对比报告。</li>
+                        <li><strong>疑难排查：</strong>定位并修复 Megatron dataset 使用中的爆内存问题，优化数据加载阶段冗余索引。</li>
+                        <li><strong>训练分析：</strong>实现训练 step 与数据样本的精确映射，在 loss spike 发生时快速回溯异常样本。</li>
+                    </ul>
+                </div>
+
+                <div class="project-card glass-card fade-in slide-up" style="--delay: 0.1s">
+                    <div class="project-header">
+                        <h3>AI基础架构 调度与训练优化</h3>
+                        <span class="company-tag">Shopee</span>
+                    </div>
+                    <ul class="project-details">
+                        <li><strong>调度算法：</strong>实现单 GPU Pod Binpack 调度算法，有效降低资源碎片率30%。兼容单机多卡、多机多卡训练场景。</li>
+                        <li><strong>拓扑亲和：</strong>实现 NCCL 拓扑亲和调度，分配卡时优先选择距离较近的组合，减少跨NUMA/PCIe通信开销。</li>
+                        <li><strong>容错恢复：</strong>开发 Torch 作业容错框架，捕获节点/卡级别故障并自动恢复训练；排障效率提升50%。</li>
+                        <li><strong>资源共享：</strong>实现共享 GPU 调度并支持指定 GPU 卡，GPU整体利用率提升10%。</li>
+                    </ul>
+                </div>
+
+                <div class="project-card glass-card fade-in slide-up" style="--delay: 0.2s">
+                    <div class="project-header">
+                        <h3>大模型训练迁移与优化</h3>
+                        <span class="company-tag">百度</span>
+                    </div>
+                    <ul class="project-details">
+                        <li><strong>框架迁移：</strong>迁移 ChatGLM-6B 到 Megatron 框架，适配模型结构差异，逐层对齐 tensor 精度。</li>
+                        <li><strong>性能调优：</strong>在 Megatron 上实现 DP Overlap（梯度allreduce与反向计算重叠），MFU显著提升。</li>
+                        <li><strong>成本模型：</strong>构造 Memory-Cost Model，推算不同并行切分方式下的显存与通信开销，辅助策略选型。</li>
+                        <li><strong>GPU池化：</strong>主导 CGPU（算力/显存隔离）研发，保障故障隔离与透明迁移，GPU整体利用率提升35%。</li>
+                    </ul>
+                </div>
+
+                <div class="project-card glass-card fade-in slide-up" style="--delay: 0.3s">
+                    <div class="project-header">
+                        <h3>孔明 AI平台调度建设</h3>
+                        <span class="company-tag">百度</span>
+                    </div>
+                    <ul class="project-details">
+                        <li><strong>容错弹性：</strong>实现 EDL (Elastic Deep Learning) 训练，动态调整参与训练的节点数。</li>
+                        <li><strong>共享调度：</strong>在 Volcano 调度器中实现共享 GPU 调度方案，打通多种资源形式的统一调度。</li>
+                        <li><strong>超发抢占：</strong>支持作业超发功能，借用模式利用空闲资源，集群资源利用率达 65%。</li>
+                        <li><strong>离线VPA：</strong>主导离线训练VPA，动态缩减GPU资源至1/2以混布其他作业。</li>
+                    </ul>
+                </div>
+
+                <div class="project-card glass-card fade-in slide-up" style="--delay: 0.4s">
+                    <div class="project-header">
+                        <h3>Kubernetes与PaaS平台建设</h3>
+                        <span class="company-tag">京东 / 猿辅导</span>
+                    </div>
+                    <ul class="project-details">
+                        <li><strong>统一认证：</strong>猿辅导K8s接入 idaas 系统，client-go-credential-plugin 实现认证授权。</li>
+                        <li><strong>容器深度定制：</strong>京东商城核心业务容器化，定制 Docker，在生产环境落地 Kata Containers 轻量虚拟化。</li>
+                        <li><strong>混合云网络：</strong>开发私有云与公有云 (京东/腾讯云) VPC/路由打通功能。</li>
+                        <li><strong>区块链 Baas：</strong>基于 K8s 与 Fabric 打造 Baas 平台，实现一键部署与分钟级企业组网上链。</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section fade-in">
+            <div class="education-card glass-card">
+                <i data-lucide="graduation-cap" class="edu-icon"></i>
+                <div class="edu-content">
+                    <h3>山东科技大学</h3>
+                    <p>计算机科学与技术 | 本科 | 2009.09 - 2013.06</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 王帅俭. All rights reserved. | Built with modern web technologies.</p>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
