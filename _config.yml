@@ -10,17 +10,17 @@
 ############################
 
 # Name of website
-title: My website
+title: 王帅俭的博客
 
 # Your name to show in the footer
-author: Some Person
+author: 王帅俭
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  关于我: "aboutme"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
