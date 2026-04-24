@@ -20,7 +20,7 @@ author: 王帅俭
 ###############################################
 
 navbar-links:
-  首页: ""
+  关于我: ""
   博客: "blog"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
